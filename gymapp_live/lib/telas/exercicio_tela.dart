@@ -12,7 +12,7 @@ class ExercicoTela extends StatelessWidget {
           print("Fab Foi Clicado!");
         }, child: Icon(Icons.add),
         ),
-        body: 
+        body: Column(children: [],) 
     );
   }
 }
