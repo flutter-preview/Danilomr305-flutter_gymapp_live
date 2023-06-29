@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Text("Se escreva na Dotcode"),
+      home: Text("Se escreve na Dotcode"),
     );
   }
 }
