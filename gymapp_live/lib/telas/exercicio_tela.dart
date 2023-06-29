@@ -16,8 +16,9 @@ class ExercicoTela extends StatelessWidget {
           ElevatedButton(
             onPressed: (){}, 
             child: Text("Enviar foto"),
-            ),
+          ),
         ],
-        ));
+      ),
+    );
   }
 }
