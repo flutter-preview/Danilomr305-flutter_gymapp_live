@@ -5,6 +5,14 @@ class ExercicoTela extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text("Puxada Alta Pronada - Treina A")),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          print("Fab Foi Clicado!");
+        }, child: Icon(Icons.add),
+        ),
+        body: ElevatedButton(),
+    );
   }
 }
