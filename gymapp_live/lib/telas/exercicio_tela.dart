@@ -10,25 +10,42 @@ class ExercicoTela extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Puxada Alta Pronada - Treina A")),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){
+        onPressed: () {
+          // ignore: avoid_print
           print("Fab Foi Clicado!");
         }, child: Icon(Icons.add),
         ),
-        body: Column(
-          children: [
-           ElevatedButton(
-             onPressed: (){}, 
-             child: Text("Enviar foto",
-              style: TextStyle
-              (fontWeight: FontWeight.bold,
-               fontSize: 16),),
-            ),
-            Text(
-              "Como fazer?",
-               style: TextStyle
-               (fontWeight: FontWeight.bold,
-                fontSize: 18),),
-          ],
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+             ElevatedButton(
+               onPressed: (){}, 
+               child: Text("Enviar foto",
+                style: TextStyle
+                (fontWeight: FontWeight.bold,
+                 fontSize: 16),),
+              ),
+              Text(
+                "Como fazer?",
+                 style: TextStyle
+                 (fontWeight: FontWeight.bold,
+                  fontSize: 18),
+                  ),
+                  Text(
+                    "Segure com as duas mãos na barra, mantem a coluna reta, e puxa."),
+                  Divider(),
+                  Text(
+                "Como estou me sentindo?",
+                 style: TextStyle
+                 (fontWeight: FontWeight.bold,
+                  fontSize: 18
+                  ),
+                ),
+                Text("Senti bastante ativação hoje!"),
+            ],
+          ),
         ),
       );
     }
