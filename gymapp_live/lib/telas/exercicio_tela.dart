@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class ExercicoTela extends StatelessWidget {
@@ -18,6 +20,7 @@ class ExercicoTela extends StatelessWidget {
              onPressed: (){}, 
              child: Text("Enviar foto"),
             ),
+            Text("Como fazer?")
           ],
         ),
       );
