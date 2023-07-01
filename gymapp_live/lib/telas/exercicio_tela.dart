@@ -18,9 +18,16 @@ class ExercicoTela extends StatelessWidget {
           children: [
            ElevatedButton(
              onPressed: (){}, 
-             child: Text("Enviar foto"),
+             child: Text("Enviar foto",
+              style: TextStyle
+              (fontWeight: FontWeight.bold,
+               fontSize: 16),),
             ),
-            Text("Como fazer?")
+            Text(
+              "Como fazer?",
+               style: TextStyle
+               (fontWeight: FontWeight.bold,
+                fontSize: 18),),
           ],
         ),
       );
