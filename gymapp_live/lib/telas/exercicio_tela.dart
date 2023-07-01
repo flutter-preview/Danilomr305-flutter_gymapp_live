@@ -8,7 +8,7 @@ class ExercicoTela extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Puxada Alta Pronada - Treina aA")),
+      appBar: AppBar(title: Text("Puxada Alta Pronada - Treina A")),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // ignore: avoid_print
